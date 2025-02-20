@@ -1,12 +1,13 @@
 # Audiences service training
+The purpose of this project is to develop a service that processes user audiences 
+in order to make an example of a real world application.
 
-Servei-> Processar audiencies usuari
-Una audiencia d'usuari -> entitat creada per sistema extern que ens la comunicara a traves de HTTP
-Audiencia te : nom que l'identifica per exemple   Nom:"persones que compren cotxer a BCN"
-El sistema extern ens comunicara una audiencia amb una senyal d'entrada o sortida i un identificador d'usuari que és un 
-tipus i un valor.
+A User audience is an entity created by an external system that will communicate it to through HTTP.
+The audience has a name that identifies it, for example Name: "people who buy cars in BCN"
+The external system will communicate an audience with an input or output signal and a user identifier that is a
+type and a value.
 
-Payload:
+Payload example:
 
 ```json
 {
@@ -24,17 +25,15 @@ Payload:
     "audience":"persones que compren cotxes a BCN"
 }
 ```
-El servei ha d'emmagatzemar els ids que entren a l'audiencia
-Aquesta informació s'enviarà a plataformes externes.
-Cada plataforma externa té una forma diferent de crear audiències. Pero totes
-ofereixen la forma de fer-ho via HTTP.
+This service will store the ids that enter the audience and will send this information to external platforms.
+Each external platform has a different way of creating audiences. But all of them offer the way to do it through HTTP.
 
-Les audiencies de cada plataforma poden tenir restriccions diferents:
-- Temps mínim entre la creació i poder començar a rebre ids d'usuari.
-- Quantitat màxima d'ids que es poden enviar dins una franja de temps.
-- Quantitat màxima de peticions que es poden fer en un temps determinat.
+Audiences of each platform can have different restrictions:
+- Minimum time between creation and being able to start receiving user ids.
+- Maximum number of ids that can be sent within a time frame.
+- Maximum number of requests that can be made in a given time.
 
-Cada plataforma accepta alguns tipus de ids
+Each platform accepts some types of ids
 
 
 ## Links
