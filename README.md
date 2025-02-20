@@ -34,6 +34,7 @@ Les audiencies de cada plataforma poden tenir restriccions diferents:
 - Quantitat màxima d'ids que es poden enviar dins una franja de temps.
 - Quantitat màxima de peticions que es poden fer en un temps determinat.
 
+Cada plataforma accepta alguns tipus de ids
 
 
 ## Links
