@@ -1,4 +1,4 @@
-package com.jp.audiences.repository.impl;
+package com.jp.audiences.infrastructure.outbound.fake;
 
 import com.jp.audiences.domain.Audience;
 import com.jp.audiences.domain.AudienceRepository;
