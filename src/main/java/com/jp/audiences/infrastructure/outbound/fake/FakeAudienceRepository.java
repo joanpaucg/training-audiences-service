@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Repository
+//@Repository
 public class FakeAudienceRepository implements AudienceRepository {
     private Map<String, Audience> audiences=new HashMap<>();
     @Override
