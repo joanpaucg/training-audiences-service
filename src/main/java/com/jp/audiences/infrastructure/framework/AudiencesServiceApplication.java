@@ -1,9 +1,11 @@
-package com.jp.audiences;
+package com.jp.audiences.infrastructure.framework;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan("com.jp.audiences")
 public class AudiencesServiceApplication {
 
 	public static void main(String[] args) {

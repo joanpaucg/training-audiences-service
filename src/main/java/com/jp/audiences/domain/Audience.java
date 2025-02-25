@@ -1,4 +1,4 @@
-package com.jp.audiences.model;
+package com.jp.audiences.domain;
 
 import java.util.List;
 
