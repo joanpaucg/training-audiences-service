@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: demo
+    profiles:
+      active: dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mydatabase?currentSchema=demo
+    username: myuser
+    password: secret
+  flyway:
+    schemas: demo
+  jpa:
+    properties:
+      hibernate:
+        default_schema: demo
