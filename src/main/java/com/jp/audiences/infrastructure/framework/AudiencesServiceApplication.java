@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @ComponentScan("com.jp.audiences")
-
+@EnableJpaRepositories
 public class AudiencesServiceApplication {
 
 	public static void main(String[] args) {
