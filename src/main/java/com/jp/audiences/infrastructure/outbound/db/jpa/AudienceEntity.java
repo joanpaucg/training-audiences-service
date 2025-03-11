@@ -37,5 +37,6 @@ public class AudienceEntity {
     }
 
     public void setName(String name) {
+        this.name = name;
     }
 }
