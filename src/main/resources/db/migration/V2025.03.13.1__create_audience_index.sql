@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX idx_audience_name ON audience(name);
